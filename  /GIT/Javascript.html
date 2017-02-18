@@ -1,0 +1,79 @@
+﻿<html>
+    <head>
+        <title>Ты никогда не сделаешь так!</title>
+        <style type="text/css"><
+            html, body {
+                height: 100%;
+                margin: 0px;
+            }
+            .outer {
+                width: 100%;
+                height: 100%;
+                margin: 10px;
+                background-color: #1205FF;
+                background: linear-gradient(70deg, #F00, yellow);
+                justify-content: center;
+                display: flex;
+            }
+            .input {
+                width: 50%;
+                height: 20px;
+                color: #AD16B8;
+                margin: 0;
+                font-size: 50px;
+
+                background-color: #F7EE97;
+                border-radius: 20px;
+            }
+            .btn {
+                width: 200px;
+                height: 50px;
+                background-color: #05E6FF;
+                border-radius: 50px;
+                font-size: 20px;
+            }
+            .btn1 {
+                background-color: red!important;
+                width: 200px;
+                height: 50px;
+                background-color: #05E6FF;
+                border-radius: 50px;
+                font-size: 20px;
+            }
+     
+         </style>
+         <script type="text/javascript">
+             var number;
+             number = 0;
+
+             number = 3.14;
+             number = 'я лол';
+             var array = [];
+             var array1 = ['#B8F2F5', 'pink', '11px']
+             number = 'green';
+             array1.push(number);
+             array1.push('yellow');
+             function Click() {
+
+                alert('Осторожно! Вы сейчас убьёте человека!');
+
+                //event
+                event.target.attributes[0].value += ' btn1';
+            }
+             function r () {
+
+                // alert('KeyDown');
+             }
+
+
+         </script>
+    </head>
+    <body>
+         <div class="outer">
+             <input class="input" onkeydown="r()" type="text">
+             <input class="btn" onclick="Click()" type="button" value="Убить человека!">
+             <input class="btn1" onclick="Click()" type="button" value="ЛОЛ!!">
+        </div>
+    </body>
+</html>   
+<!-- document.getElementsByClassName('input')[0].attributes[0].value = ''  -->

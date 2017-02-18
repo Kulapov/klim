@@ -15,7 +15,7 @@ button.addEventListener("click", function  (argument) {
 	xhr.send();
 });*/
 $("#request").on("click",function(){
-	var request = $.get("http://localhost:591/");
+	var request = $.get("http://localhost:7777/");
 	request.done(function(data){
 		console.log(data);
 	});

@@ -1,0 +1,147 @@
+﻿<html>
+	<head>
+<script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Сложна!!!</title>
+	</head>
+
+	<body>
+
+		<style>
+			#comment-block {
+				width: 50%;
+				margin-left: 60px;
+				margin-top: 50px; 
+				float: left;
+			}
+
+			#tittle {
+				margin-bottom: 35px;
+			}
+
+			.custom-lable {
+				margin-bottom: 50px;
+			}
+
+			.form-control {
+				margin-top: 15px;
+			}
+
+			/*.send-btn {
+				font-size: 35px;
+				color: black;
+				background-color: white;
+				border-radius: 11px;
+			}*/
+
+			#logo-block {
+				background-image: url('lol.png');
+				width: 250px;
+				height: 350px;
+				float: right;
+				margin-right: 196px;
+				margin-top: 83px;
+
+			}
+
+			#contacts-block {
+				clear: both;
+				top: 90%;
+    			position: absolute;
+    			left: 42%;
+    			text-align: center;
+			}
+
+			.big-btn {
+				height: 400px;
+				width: 400px;
+
+			}
+
+/*			#mybtn {
+
+				background-color: fff;
+				color: black;
+				border-radius: 25px;
+			}*/
+ 			.small-btn {
+ 				height: 100px;
+ 				width: 100px;
+
+
+ 			}
+
+ 			.medium-btn {
+ 				height: 250px;
+ 				width: 250px;
+
+ 			}
+		</style>
+
+		<div id="comment-block">
+
+			<h4 id="tittle">астафте атзыф</h4>
+
+			<div class="form-group row">
+				<label for="name-input" class="col-sm-2 control-label custom-lable">емя:</label>
+				<div class="col-sm-4">
+					<input class="form-control" id="name-input" placeholder="Вася">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label class="col-sm-2 control-label custom-lable">атзыф:</label>
+				<div class="col-sm-8">
+					<textarea class="form-control" rows="3"></textarea>
+				</div>
+			</div>
+
+			<button class="btn btn-success send-btn">атправеть</button>
+		</div>
+
+		<div id="logo-block">
+
+        </div>
+
+        <button class="btn btn-success mybtn">кнопОчка</button>
+
+        <script>
+
+        var clickedCount = 0;
+        	$(".mybtn").on("click", function(){
+        		clickedCount++;
+        		if(clickedCount == 1) {
+        			$(".mybtn").addClass("small-btn");	
+        		} else if (clickedCount == 2) {	
+        			$(".mybtn").removeClass("small-btn");
+        			$(".mybtn").addClass("medium-btn");
+        		} else if (clickedCount >= 3) {
+        			$(".mybtn").removeClass("medium-btn");
+        			$(".mybtn").addClass("big-btn");
+        		}
+        	});
+        	
+        </script>
+
+        <div id="contacts-block">
+        	<p>Trololololo.inc.corp.gi, 88005553535 </p>
+
+        </div>
+
+		<script>
+			$(".send-btn").on("click", function() {
+				alert("Привет, " + $("#name-input").val() + "! спс зо атзыф!"
+					);
+			});
+		</script>			
+
+	</body>
+
+</html>	

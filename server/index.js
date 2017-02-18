@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
-	res.send('Дратути!');
+	res.send('Dratuti!');
 });
 
-app.listen(591, function () {
-	console.log('Я лаботаю!');
+app.listen(7777, function () {
+	console.log('Ya labotau!');
 });

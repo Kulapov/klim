@@ -9,7 +9,7 @@ var xCenterClock = canvasHTML.width/2;
 var yCenterClock = canvasHTML.width/2;
 
 contextHTML.fillStyle = "#ffffff";
-contextHTML.fillRect(0,0,canvasHTML.width,canvasHTML, canvasHTML.height);
+contextHTML.fillRect(0,0,canvasHTML.width, canvasHTML.height);
 
 contextHTML.strokeStyle = "#000000";
 contextHTML.lineWidth = 1;
@@ -55,7 +55,7 @@ contextHTML.beginPath();
 contextHTML.strokeStyle = "#000000";
 contextHTML.lineWidth = 3;
 contextHTML.moveTo(xCenterClock,yCenterClock);
-contextHTML.lineTo(xCenterClock + lengthMinuts*Math.cos(Math.PI/2 - t_sec*(Math.PI/180)),
+contextHTML.lineTo(xCenterClock + lengthMinuts*Math.cos(Math.PI/2 - t_min*(Math.PI/180)),
 yCenterClock - lengthMinuts*Math.sin(Math.PI/2 - t_min*(Math.PI/180)));
 contextHTML.stroke();
 contextHTML.closePath();

@@ -29,7 +29,7 @@ else {radiusNum = radiusClock - 10;}
 contextHTML.moveTo(xCenterClock + radiusNum * Math.cos(-6*tm*(Math.PI/180) + Math.PI/2),
 yCenterClock - radiusNum* Math.sin(-6*tm*(Math.PI/180) + Math.PI/2));
 
-contextHTML.lineTo(xCenterClock + radiusClock * Math.cos(-6*tm*(Math.PI/180) + Math.Pi/2),
+contextHTML.lineTo(xCenterClock + radiusClock * Math.cos(-6*tm*(Math.PI/180) + Math.PI/2),
 yCenterClock - radiusClock* Math.sin(-6*tm*(Math.PI/180) + Math.PI/2));
 
 contextHTML.stroke();

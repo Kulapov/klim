@@ -63,7 +63,7 @@ contextHTML.closePath();
 contextHTML.beginPath();
 contextHTML.lineWidth = 5;
 contextHTML.moveTo(xCenterClock,yCenterClock);
-contextHTML.lineTo(xCenterClock + lengthMinuts*Math.cos(Math.PI/2 - t_hour*(Math.PI/180)),
+contextHTML.lineTo(xCenterClock + lengthHour*Math.cos(Math.PI/2 - t_hour*(Math.PI/180)),
 yCenterClock - lengthHour*Math.sin(Math.PI/2 - t_hour*(Math.PI/180)));
 contextHTML.stroke();
 contextHTML.closePath();

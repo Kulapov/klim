@@ -1,0 +1,6 @@
+www.torproject.org:HSTS	0	17264	1507413669753,1,0
+www.eff.org:HSTS	0	17264	1523182267797,1,1
+versioncheck-bg.addons.mozilla.org:HSTS	0	17264	1491646567806,1,0
+versioncheck-bg.addons.mozilla.org:HPKP	0	17264	1496830267812,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+aus1.torproject.org:HPKP	0	17264	1496830027019,1,0,wGJQ6N5utvhfITD/g4M3HUPwutGqLy4PfjCeE8rp68s=x0MgaI9OqdZw826vW+IQaZP3AbvEs6OqOfysZGrHGUI=
+aus1.torproject.org:HSTS	0	17264	1507414027015,1,0

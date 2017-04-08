@@ -1,0 +1,35 @@
+# Tor state file last generated on 2017-04-08 13:52:26 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+EntryGuard ivitor 08E9530B399F7A71936066586B31A66877066458 DirCache
+EntryGuardAddedBy 08E9530B399F7A71936066586B31A66877066458 0.2.9.10 2017-03-13 21:22:45
+EntryGuardPathBias 91.000000 91.000000 91.000000 0.000000 0.000000 1.000000
+EntryGuardPathUseBias 37.000000 37.000000
+EntryGuard 3141592653589793238 B1726B94885CE3AC3910CA8B60622B97B98E2529 DirCache
+EntryGuardDownSince 2017-04-08 10:24:10 2017-04-08 10:24:12
+EntryGuardUnlistedSince 2017-04-08 10:28:09
+EntryGuardAddedBy B1726B94885CE3AC3910CA8B60622B97B98E2529 0.2.9.10 2017-04-02 10:49:39
+EntryGuard MariaBonita 1D3F937E2053E58C18E18D43FA5153E2A9F4DC77 DirCache
+EntryGuardAddedBy 1D3F937E2053E58C18E18D43FA5153E2A9F4DC77 0.2.9.10 2017-04-01 21:05:08
+TorVersion Tor 0.2.9.10 (git-1f6c8eda0073f464)
+LastWritten 2017-04-08 10:52:26
+TotalBuildTimes 89
+CircuitBuildTimeBin 175 1
+CircuitBuildTimeBin 225 21
+CircuitBuildTimeBin 275 17
+CircuitBuildTimeBin 325 10
+CircuitBuildTimeBin 375 7
+CircuitBuildTimeBin 425 6
+CircuitBuildTimeBin 475 5
+CircuitBuildTimeBin 525 5
+CircuitBuildTimeBin 575 3
+CircuitBuildTimeBin 625 5
+CircuitBuildTimeBin 675 2
+CircuitBuildTimeBin 725 1
+CircuitBuildTimeBin 825 1
+CircuitBuildTimeBin 925 1
+CircuitBuildTimeBin 1025 1
+CircuitBuildTimeBin 1225 1
+CircuitBuildTimeBin 1475 1
+CircuitBuildTimeBin 3925 1

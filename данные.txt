@@ -1,0 +1,27 @@
+User Information
+Username *: 987654123
+ 
+Password *: 2007klim
+ 
+Confirm *: 2007klim
+ 
+Six-digit PIN *: 228228
+ 
+Login phrase: klim
+ 
+Inviter user:
+ 
+Profile Information
+ICQ: 
+ 
+AOL: Lox Vacced Debil
+ 
+Jabber: Lox
+ 
+Website: www.down.com
+ 
+Profile text: I am Lox
+ 
+Key Information
+PGP public key: 
+ 
